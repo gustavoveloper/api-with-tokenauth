@@ -1,0 +1,27 @@
+[
+    {
+        "id": "john-doe-12345",
+        "username": "john",
+        "full_name": "John Doe"
+    },
+    {
+        "id": "dave-dave-123456789987654321",
+        "username": "dave",
+        "full_name": "Dave Joe"
+    },
+    {
+        "id": "1234554321-d",
+        "username": "derik",
+        "full_name": "Derik D."
+    },
+    {
+        "id": "ajhsjahsjahsjahj-jhsajshajhsjh",
+        "username": "gustavo",
+        "full_name": "Gustavo Oliveira"
+    },
+    {
+        "id": "101010108800-jwt",
+        "username": "jason",
+        "full_name": "Jason W. T."
+    }
+]
