@@ -1,5 +1,7 @@
 const helpers = {
-    getErrorResponseBody: error => ({ error, data: null })
+    getErrorResponseBody: error => ({ error, data: null }),
+
+    getSuccessResponseBody: data => ({ error: null, data })
 };
 
 

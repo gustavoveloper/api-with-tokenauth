@@ -7,11 +7,11 @@ async function authenticateWithToken(request, response, next) {
     const token = request.headers['x-access-token'];
 
     if (!token) {
-        return response.status(201).json(getErrorResponseBody('Token is required in "X-Access-Token" HTTP header'))
+        return response.status(401).json(getErrorResponseBody('Token is required in "X-Access-Token" HTTP header'))
     };
 
     if (token !== adminSecretKey) {
-        return response.status(201).json(getErrorResponseBody('Invalid access token'))
+        return response.status(401).json(getErrorResponseBody('Invalid access token'))
     };
 
     return next()
